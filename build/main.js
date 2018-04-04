@@ -4505,10 +4505,10 @@ function displayProperties(hicannNumber) {
     displayBusesNumber(hicannNumber);
 }
 function displayNeuronsNumber(hicannNumber) {
-    domObjects.neurons.neuronsNumber.html("\n\t\tNumber of neurons: " + wafer.hicanns[hicannNumber].numNeurons + "\n\t");
+    domObjects.neurons.neuronsNumber.html("\n\t\tnumber of neurons: " + wafer.hicanns[hicannNumber].numNeurons + "\n\t");
 }
 function displayInputsNumber(hicannNumber) {
-    domObjects.inputs.inputsNumber.html("\n\t\tNumber of inputs: " + wafer.hicanns[hicannNumber].numInputs + "\n\t");
+    domObjects.inputs.inputsNumber.html("\n\t\tnumber of inputs: " + wafer.hicanns[hicannNumber].numInputs + "\n\t");
 }
 function displayBusesNumber(hicannNumber) {
     domObjects.leftBuses.leftBusesNumber.html("\n\t\tvertical left: " + wafer.hicanns[hicannNumber].numBusesLeft + "\n\t");

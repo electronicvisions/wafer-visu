@@ -165,7 +165,7 @@ function setupScreen(){
 	dropZone.addEventListener("dragenter", () => {$("#dropZone").css("border", "2px solid #65c4fa")})
 	dropZone.addEventListener("dragleave", () => {$("#dropZone").css("border", "none")})
 	dropZone.addEventListener("drop", () => {$("#dropZone").css("border", "none")})
-	
+
 	// handle upload Button
 	let uploadButton = document.querySelector("#upload");
 	uploadButton.addEventListener("click", function() {
@@ -1418,12 +1418,12 @@ function displayProperties(hicannNumber) {
 }
 function displayNeuronsNumber(hicannNumber) {
 	domObjects.neurons.neuronsNumber.html(`
-		Number of neurons: ${wafer.hicanns[hicannNumber].numNeurons}
+		number of neurons: ${wafer.hicanns[hicannNumber].numNeurons}
 	`);
 }
 function displayInputsNumber(hicannNumber) {
 	domObjects.inputs.inputsNumber.html(`
-		Number of inputs: ${wafer.hicanns[hicannNumber].numInputs}
+		number of inputs: ${wafer.hicanns[hicannNumber].numInputs}
 	`);
 }
 function displayBusesNumber(hicannNumber) {
